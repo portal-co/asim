@@ -6,6 +6,8 @@ description.workspace = true
 license-file.workspace = true
 
 [dependencies]
+portal-pc-asm-common = { workspace = true, features = ["alloc"] }
+portal-solutions-asm-semantics = { workspace = true, features = ["alloc"] }
 wasm-encoder.workspace = true
 wasmparser.workspace = true
 wax-core.workspace = true
