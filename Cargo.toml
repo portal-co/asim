@@ -1,6 +1,7 @@
 [workspace]
 packages=[]
 resolver="3"
+members = ["crates/asim-core"]
 
 [workspace.package]
 description = "Assembly semantics and applying them"
