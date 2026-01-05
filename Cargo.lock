@@ -126,7 +126,7 @@ dependencies = [
 [[package]]
 name = "portal-pc-asm-common"
 version = "0.1.1"
-source = "git+https://github.com/portal-co/asm-common.git#f88d42cf6d9a16107e587edec87d5b9db736ad21"
+source = "git+https://github.com/portal-co/asm-common.git#e201b930a8811378402dc97f072f576c1fd42f3f"
 dependencies = [
  "array-init",
  "bitvec",
@@ -141,7 +141,7 @@ dependencies = [
 [[package]]
 name = "portal-solutions-asm-semantics"
 version = "0.1.0"
-source = "git+https://github.com/portal-co/asm-arch.git#40bdbdbfd046059d399c60e2033734919396bb7a"
+source = "git+https://github.com/portal-co/asm-arch.git#bc9c0f3a1fe00903e41a0248944b1695247b5c77"
 dependencies = [
  "portal-pc-asm-common",
  "typeid",
@@ -149,18 +149,18 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.103"
+version = "1.0.104"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5ee95bc4ef87b8d5ba32e8b7714ccc834865276eab0aed5c9958d00ec45f49e8"
+checksum = "9695f8df41bb4f3d222c95a67532365f569318332d03d5f3f67f37b20e6ebdf0"
 dependencies = [
  "unicode-ident",
 ]
 
 [[package]]
 name = "quote"
-version = "1.0.41"
+version = "1.0.42"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ce25767e7b499d1b604768e7cde645d14cc8584231ea6b295e9c9eb22c02e1d1"
+checksum = "a338cc41d27e6cc6dce6cefc13a0729dfbb81c262b1f519331575dd80ef3067f"
 dependencies = [
  "proc-macro2",
 ]
@@ -203,9 +203,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.108"
+version = "2.0.113"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "da58917d35242480a05c2897064da0a80589a2a0476c9a3f2fdc83b53502e917"
+checksum = "678faa00651c9eb72dd2020cbdf275d92eccb2400d568e419efdd64838145cb4"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -271,7 +271,7 @@ dependencies = [
 [[package]]
 name = "wax-core"
 version = "0.1.0"
-source = "git+https://github.com/portal-co/wax.git?branch=main#633f4fcd7afa66233c7e7042fe2eb8174771bbe2"
+source = "git+https://github.com/portal-co/wax.git?branch=main#d57906c0bb21606e29a17a2fb7c2e9f7cd2b39b9"
 dependencies = [
  "impl-trait-for-tuples",
  "wasm-encoder 0.240.0",
