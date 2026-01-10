@@ -1,13 +1,14 @@
 # asim
 
 ## Description
-Project asim
+Assembly semantics modeling and application framework.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Define semantics for assembly instructions
+- [ ] Apply semantics to code analysis or execution
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace initialized with `asim-core`
 
 ---
 *AI assisted*
